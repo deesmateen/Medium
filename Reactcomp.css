@@ -1,0 +1,292 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+nav {
+	width: 100%;
+	height: 50px;
+}
+.containerLeft {
+	display: flex;
+	float: left;
+}
+.containerRight {
+	display: flex;
+	justify-content: space-between;
+	float: right;
+}
+.logo {
+	font-size: 40px;
+	font-weight: 900;
+	margin: 5px;
+}
+.buttonSmall{
+	width: 50px;
+	height: 40px;
+	background: #F9FAFA;
+	border-color: #D9D9D9;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 5px;
+	text-align: left;
+	text-transform: uppercase;
+	margin: 5px;
+}
+.button {
+	width: 140px;
+	height: 40px;
+	background: #F9FAFA;
+	border-style: solid;
+	border-color: #D9D9D9;
+	border-width: thin;
+	text-align: left;
+	text-transform: uppercase;
+	margin: 5px;
+	border-radius: 5px;
+}
+.topPic {
+	border-radius: 100%;
+	height: 30px;
+	width: 30px;
+	border-color: black;
+	border-style: solid;
+	border-width: thin;
+	background: url("https://d262ilb51hltx0.cloudfront.net/fit/c/32/32/1*oZu4yGg3LiS4YBe_HnOKew.jpeg") no-repeat;
+	background-size: 100%;
+	position: absolute;
+}
+.topName { 
+	height: 30px;
+	width: 120px;
+	background-color: transparent;
+	text-align: center;
+	border-radius: 20px;
+	box-sizing:border-box;
+	padding-top: 4px;
+	position: relative;
+	left: 30px;
+}
+.searchSmall {
+	border-radius: 25px;
+	width: 25px;
+	border-color: #D9D9D9;
+	border-style: solid;
+	height: 25px;
+	margin: 5px;
+	background: url("http://www.sucampo.com/wp-content/themes/sucampo/images/search-icon.png") no-repeat;
+	background-size: 100%;
+	padding: inherit;
+}
+.search {
+	border-radius: 25px;
+	width: 100px;
+	border-color: #D9D9D9;
+	border-style: solid;	
+	height: 25px;
+	margin: 5px;
+	background: url("http://www.sucampo.com/wp-content/themes/sucampo/images/search-icon.png") no-repeat;
+	background-size: 28%;
+	padding: inherit;
+	text-align: center;
+}
+img {
+	height: 100px;
+	width: 100px;
+}
+
+.signUp {
+	background-color: white;
+	border-style: solid;
+  	border-color: #99DDB0;
+  	border-radius: 20px;
+  	width: 145px;
+  	text-transform: uppercase;
+  	margin: 5px;
+  	font-weight: bold;
+
+}
+
+.main {
+	height: 100%;
+	box-sizing: border-box;
+	width: 50%;
+	margin: 0 auto;
+}
+.content {
+	box-sizing:border-box;
+}
+h1 {
+	font-weight: bolder;
+}
+p {
+	font-size: 24px;
+}
+.footer {
+	background-color: white;
+	padding: 10px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+	border-color: #D9D9D9;
+	border-style: solid;
+	border-width: thin;
+}
+.link {
+	border-radius: 20px;
+	height: 40px;
+	width: 40px;
+	background-color: transparent;
+	border-color: transparent;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 20%;
+
+}
+.pic {
+	border-radius: 100%;
+	height: 40px;
+	width: 40px;
+	border-color: transparent;
+	border-style: solid;
+	border-width: thin;
+	background: url("https://d262ilb51hltx0.cloudfront.net/fit/c/32/32/1*oZu4yGg3LiS4YBe_HnOKew.jpeg") no-repeat;
+	background-size: 100%;
+}
+.name{
+	height: 40px;
+	width: 150px;
+	background-color: transparent;
+	border-color: transparent;
+	border-style: solid;
+	border-width: thin;
+	text-align: center;
+	border-radius: 20px;
+	box-sizing:border-box;
+	padding: inherit;
+}
+.others {
+	height: 40px;
+	width: 80px;
+	background-color: transparent;
+	border-color: transparent;
+	border-style: solid;
+	border-width: thin;
+	text-align: center;
+	border-radius: 20px;
+	box-sizing:border-box;
+	padding: inherit;
+}
+.icons {
+	height: 40px;
+	width: 80px;
+	background-color: transparent;
+	border-color: transparent;
+	border-style: solid;
+	border-width: thin;
+	text-align: center;
+	border-radius: 20px;
+	box-sizing:border-box;
+	padding: inherit;
+}
+.nextStory {
+	height: 40px;
+	width: 120px;
+	background-color: transparent;
+	border-color: #D9D9D9;
+	border-style: solid;
+	border-width: thin;
+	text-align: center;
+a	box-sizing:border-box;
+	padding: inherit;
+}
+@media (min-width: 768px){
+	.searchSmall{
+		display: none;
+	}
+}
+@media (max-width: 768px){
+	.search {
+		display: none;
+	}
+}
+@media (min-width: 768px){
+	.buttonSmall {
+		display: none;
+	}
+}
+@media (max-width: 768px){
+	.button {
+		display: none;
+	}
+}
+@media (min-width: 768px){
+	.topName {
+		display: none;
+	}
+}
+@media (min-width: 768px) {
+	.topPic {
+		display: none;
+	}
+}
+@media (min-width: 768px){
+	.main {
+		font-size: 32px;
+	}
+}
+@media (max-width: 768px){
+	.main {
+		font-size: 20px;
+	}
+}
+@media (max-width: 768px) {
+	.pic {
+		display: none;
+	}
+}
+@media (max-width: 768px){
+	.name {
+		display: none;
+	}
+}
+@media (min-width: 768px){
+	.footer {
+		font-size: 22px;
+	}
+}
+@media (max-width: 768px){
+	.footer {
+		font-size: 18px;
+		font-weight: bold;
+	}
+}
+@media (min-width: 768px) {
+	.others {
+		background-color: white;
+	}
+}
+@media (max-width: 768px) {
+	.others {
+		position: absolute;
+		left: 0;
+	}
+}
+@media (min-width: 768px) {
+	.icons {
+	}
+}
+@media (max-width: 768px) {
+	.icons {
+	}
+}
+@media (min-width: 768px) {
+	.nextStory {
+		background-color: white;
+	}
+}
+@media (max-width: 768px) {
+	.nextStory {
+	}
+}
